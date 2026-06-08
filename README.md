@@ -16,8 +16,10 @@ Pulls Parquet files from NYC TLC, runs them through pandas to handle nulls and b
 - SQLAlchemy + psycopg2
 - PyArrow for reading Parquet
 
+
 ## Project layout
 
+```
 nyc-taxi-pipeline/
 ├── data/
 │   ├── raw/        downloaded files
@@ -26,6 +28,7 @@ nyc-taxi-pipeline/
 ├── tests/
 ├── logs/
 └── requirements.txt
+```
 
 ## Setup
 
